@@ -1,7 +1,7 @@
 "use client";
 
 import solanaWeb3 from "@solana/web3.js";
-import { Wallet } from "./wallet";
+import { Wallet } from "@/components/Wallet";
 
 const Nav = () => {
   console.log(solanaWeb3);
